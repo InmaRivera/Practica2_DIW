@@ -1,0 +1,376 @@
+/* Estilos barra */
+.logo {
+	padding-left: 7%;
+	padding-right: 50%;
+}
+
+.estilos0 {
+	/* width: 100%; */
+	padding-inline-end: 5px;
+	padding-top: 35%;
+}
+
+.estilos1 {
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 25%;
+	max-width: 1400px;
+	/* width: 100%; */
+	margin-left: auto;
+	margin-right: auto;
+	/* height: auto; */
+	padding: 0px 40px;
+	position: relative;
+	clear: both;
+	/* margin-left: 10px; */
+	/* margin-right: 10%; */
+}
+
+h3 {
+	font-size: 450%;
+	font-weight: 500;
+	line-height: 1.4;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+}
+
+.fuente {
+	font-weight: bold;
+}
+
+/* Section 1, estilos  */
+/* .sesion1{
+	padding-right: 30%;
+	padding-left: 35%;
+
+} */
+.seccion_hero{
+	background-image: url(../img/portada.jpg);
+	/* background-position: 10px; */
+	/* background-size: 100% auto; */
+    /* height: 30%; */
+	 /* float: right; */
+	/* padding-right: 0%; */
+	/* padding-top: 0%; */
+	/* padding-left:50%;  */
+	/* padding-bottom: 100px; */
+	background-repeat: no-repeat;
+	background-position-x: right;
+
+	
+	}
+/* .imagenPrincipal {
+
+	width: 70%;
+	/* height: 580px;  */
+	/* padding-right: 15px;
+} */
+
+.textoPrincipal {
+	/* float: left; */
+	/* padding-left: 10%; */
+	padding-top: 10%;
+} 
+
+.contaniner0{
+    max-width: 1400px;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	padding:0px 40px;
+	position:relative;
+	clear:both;
+}
+
+/* .waxon_tm_all_wrap[data-color="black"] .waxon_tm_hero .content_inner */
+.estilo1 {
+	-webkit-text-stroke: 1px #000000;
+	color: transparent;
+}
+
+span {
+	font-family: "Poppins";
+	font-weight: 600;
+	display: inline-block;
+	padding-top: 20px;
+	font-style: italic;
+	color: #8c8c8c;
+}
+
+.seccion1 {
+
+	/* width: 100vw; */
+	align-items: center;
+	padding-block-end: 10%;
+}
+
+/* seccion2 */
+.seccion2 {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 193px;
+	padding-top: 230px;
+}
+
+.seccion2 .contenedor {
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+}
+
+.seccion2 .contenedor .left {
+	width: 140%;
+}
+
+.seccion2 .contenedor .left img {
+	width: 80%;
+}
+
+.seccion2 .contenedor .right {
+	width: 100%;
+}
+
+.seccion2.name {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #0000001a;
+	padding-bottom: 35px;
+	margin-bottom: 32px;
+}
+
+.seccion2 .name h3 {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 35px;
+	position: relative;
+	color: #000;
+}
+
+.seccion2 .name h3 .bg {
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 0px;
+	font-family: "Poppins";
+	color: transparent;
+	font-size: 150px;
+	font-weight: 900;
+	opacity: .1;
+	line-height: 0;
+	-webkit-text-stroke: 1px #000;
+
+}
+
+.boton1:hover {
+	background-color: #fff;
+	color: #000
+}
+
+.radio1 {
+	border-radius: 0px 0px 0px 0px;
+	font-weight: 600;
+	padding-top: 10px;
+	/* display: inline-block; */
+	font-style: italic;
+}
+
+/* Seccion 3 */
+.container1 {
+	margin-bottom: 140px;
+}
+
+.p1 {
+	font-style: italic;
+	padding-left: 80px;
+	padding-right: 10px;
+	text-align: justify;
+	color: #8c8c8c;
+
+}
+
+/* **********Seccion 4**********+ */
+.container2 {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 200px;
+	padding: 205px 0px 100px 0px;
+	background-color: #f8f9fa;
+}
+
+.container2 .titulo .portfolio_inner {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 105px;
+}
+
+.titulo2 {
+	/* width: 100%; */
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.titulo2 .titulo3 h3 {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 35px;
+	position: relative;
+}
+
+.titulo2 .titulo3 h3 .bg {
+	position: absolute;
+	left: -6px;
+	top: 0px;
+	font-family: "Poppins";
+	color: transparent;
+	font-size: 150px;
+	font-weight: 900;
+	opacity: .1;
+	line-height: 0;
+	-webkit-text-stroke: 1px #000;
+}
+
+.fotos {
+	padding-top: 10%;
+	max-width: 1400px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	padding: 0px 50px;
+	position: relative;
+	border-radius: 0px 0px 0px 0px;
+	background-color: #f8f9fa;
+}
+
+.padding-top {
+	padding-top: 80px;
+}
+
+.padding-top1 {
+	padding-top: 40px;
+}
+
+/*------------- Seccion 5 ---------------- */
+.radio {
+	border-radius: 50px 50px 50px 50px;
+  }
+  .testimonio1 {
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+ .testimonio2 {
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.titulo4{
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 0px;
+	font-family: "Poppins";
+	color: transparent;
+	font-size: 150px;
+	font-weight: 900;
+	opacity: .1;
+	line-height: 0;
+	-webkit-text-stroke: 1px #000;
+}
+.testimonio3 {
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 25%;
+	max-width: 1400px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	padding: 0px 40px;
+	position: relative;
+	clear: both;
+	/* margin-left: 10px; */
+	/* margin-right: 10%; */
+}
+
+.containerFo{
+	/* float:right; */
+	/* padding-left: 10%; */
+	/* height: 50px;
+	width: 50px; */
+	/* width: 100%; */
+	/* height: 20%; */
+	/* clear: both; */
+	/* float: right; */
+	/* padding-bottom: 20%;  */
+	padding-left: 80%;
+	/* padding-right: 30px; */
+	/* background-position-x: right; */
+
+}
+.foto:hover{
+	opacity: .4;
+  }
+.testimonio{
+	width: 100%;
+	height: auto;
+	clear: both;
+	/* float: left; */
+	margin-bottom: 100px;
+	padding-right: 30%;
+	/* padding-left: 10%; */
+}
+/* .container2 {
+	justify-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+	margin: auto;
+	padding-block-end: 10%;
+  } */
+
+/* .testimonio .testi_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	padding-top: 105px;
+}
+.testimonio.testi_inner .left{
+	width: 50%;
+	padding-right: 50px;
+} */
+
+/*-------------------- seccion 6 ---------------------*/
+/*---------------FOOTER ---------------- */
+footer {
+	background: #000000;
+	padding: 90px 0;
+	color: white;
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+  }
+  footer p {
+	margin-bottom: 0rem;
+  }
+

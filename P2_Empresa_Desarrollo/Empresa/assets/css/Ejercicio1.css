@@ -1,0 +1,308 @@
+/* CSS Ejercicio1 */
+body {
+  width: 100%;
+}
+
+/* Start header */
+header {
+  /* margin-top: 5px; */
+  background-color: #7b36fc;
+}
+
+.estilo {
+  /* margin-top: 10px; */
+  padding-top: 15px;
+}
+
+.efectos {
+  color: #7b36fc;
+}
+
+.btnbar:hover {
+  background-color: #000000;
+}
+
+.botonbar {
+  color: #f5f3f3;
+  height: 60px;
+
+}
+
+.radio1 {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav1 {
+  padding-left: 20%;
+}
+
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #7b36fc;
+}
+
+/* selected link */
+a:active {
+  color: #7b36fc;
+}
+
+/* End header */
+
+h3 {
+  margin-top: 5%;
+  color: #7b36fc;
+}
+
+h2 {
+  padding-right: 50%;
+  padding-top: 10%;
+
+}
+
+/* Start Seccion 1  */
+.margen {
+  margin-top: 17%;
+}
+
+.fondo {
+  background-color: #7b36fc;
+  width: 100%;
+}
+
+.text1 {
+  padding-top: 20%;
+  padding-right: 10%;
+  padding-left: 15%;
+}
+
+.imagen {
+  /* padding-right: 30%; */
+  padding-left: 10%;
+  padding-top: 3%;
+  float: left;
+
+}
+
+.radio {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.btn0 {
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+/* Start Section 2 */
+.botones {
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.boton1 {
+  width: 200px;
+  height: 180px;
+}
+
+.boton:hover {
+  background-color: #1927f0;
+}
+
+.botn:hover {
+  background-color: #7b36fc;
+  ;
+}
+
+.letra:hover {
+  color: #fff;
+}
+
+.color {
+  color: #fff;
+}
+
+.sombras {
+  box-shadow: #939393 0px 0px 20px 2px;
+  box-shadow: center;
+}
+
+.container {
+  color: #000000;
+  padding-top: 20px;
+}
+
+.posicion1 {
+  justify-content: center;
+  /* width: 100vw; */
+  padding-top: 5%;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+/* Section 3 */
+.seccion3 {
+  background-color: #7b36fc;
+  /* width: 100vw; */
+  font-weight: 400;
+  font-size: 200%;
+}
+
+
+/* Sección 4 */
+.parrafo {
+  color: #18212e;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin: auto;
+  /* padding-top: 40px; */
+
+}
+
+.padding4 {
+  text-align: center;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: 0%;
+  margin-right: 3%;
+
+}
+
+span {
+  color: #7b36fc
+}
+
+.a1:hover {
+  color: #09abf0;
+}
+
+.a1 {
+  text-decoration: none;
+  width: 100%;
+}
+
+.centered-element {
+  padding-left: 20%;
+  justify-content: center;
+}
+
+/* Sección 5 */
+
+.foto:hover {
+  color: #09abf0;
+  /* color:#09abf0; */
+  opacity: .6;
+}
+
+.container1 {
+  margin: 0%;
+  padding: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  /* padding-left: 10%;
+   padding-right: 10%;
+   display: grid;
+   align-self: center; */
+}
+
+/* eliminar espacios */
+.no-gutters {
+  margin-right: 5;
+  margin-left: 10%;
+}
+
+.container2 {
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  margin: auto;
+  padding-block-end: 10%;
+}
+
+.parrafo2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: auto;
+  /* padding-top: 40px; */
+
+}
+
+.padding-top {
+  padding-top: 120px;
+}
+
+.centrar {
+  margin-top: auto;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.container3 {
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.container4 {
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+}
+
+.float1 {
+  padding-left: 5%;
+  float: right;
+}
+
+/* footer  */
+.a2:hover {
+  color: #1927f0;
+}
+
+.facebook:hover {
+  color:#1927f0;
+  border-radius:  100px 100px 100px 100px;
+
+}
+.google:hover{
+color: #aa0606;
+
+}
+.twitter:hover{
+  color: #09abf0;
+}
+.linkedin:hover{
+  color: #1927f0;
+}
+.insta:hover{
+  color: #c965f8;
+}
+.pinterest:hover{
+  color:#aa0606
+}
+.a2 {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+/* .iconos{
+   width: 100;
+  padding-bottom:  5%;
+ } */

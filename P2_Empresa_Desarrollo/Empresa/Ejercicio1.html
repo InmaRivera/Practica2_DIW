@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="./assets/css/Ejercicio1.css" rel="stylesheet">
+
+  <title>Gradient-Agency</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <!-- Example Code -->
+    <nav class="navbar navbar-expand-lg top bg-clear">
+              <!-- Botón fijo vista grande  -->
+              <i type="button" class="bi bi-justify text-white toggle-btn mb-lg-0 mx-4 my-0 pt-1" data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+              aria-label="Toggle navigation"></i>
+      <div class="container-fluid">
+        <!-- botón por defecto de barra  -->
+        <!-- <button class="navbar-toggler slider-social y-0 toggle-btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i type="button" class=" bi bi-justify text-white"></i> -->
+        </button>
+        <div class="collapse navbar-collapse nav1" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-80 justify-content-center text-center"
+            style="background-color: #fff;">
+            <!-- <ul class="nav expand-lg-top " style="background-color: #fff;"> -->
+            <a href="#" title="Logo" class="logo estilo">
+              <!--Logo Default-->
+              <img src="./img/logo.png" alt="logo" class=" nav-logo">
+            </a>
+            <li class="nav-item">
+              <a class="nav-link scroll line active estilo" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll line estilo" aria-current="page" href="#About">About Agency</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll line estilo" href="#Corporate">Corporate Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll line estilo" href="#Review">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll line estilo"
+                href="https://megaone.acrothemes.com/gradient-agency/standalone.html">Blog</a>
+            </li>
+            <!-- Cuadrar último botón del navbar en azul-->
+            <!-- <div class="navbar-nav ml-auto"> -->
+            <li class="nav-item">
+              <a class="btn btn-outline-dark btn-primary botonbar btnbar radio1 estilo" href="#Infor" type="link">Get
+                Started now</a>
+            </li>
+        </div>
+        <!--Añadimos los botones de las redes sociales-->
+        <div class="text-center">
+          <i class="bi bi-facebook text-white m-1"></i>
+          <i class="bi bi-twitter  text-white m-1"></i>
+          <i class="bi bi-linkedin text-white m-1"></i>
+        </div>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  <!--Añadimos el botón desplegable y la barra de navbar-->
+ <div class="collapse w-100 justify-content-center pt-0" id="navbarToggleExternalContent" id="offcanvasNavbarLabel">
+   <div class="container-fluid">
+     <button type="button" data-bs-toggle="offcanvas" class="btn-close" data-bs-dismiss="offcanvas"
+       aria-label="Close" href="#exit"></button>
+     <!--Debajo del botón añadimos los links que vamos a ver en vertical y el logo-->
+     <ul class="nav justify-content-center a1" style="background-color: #f8f8f8;">
+       <li class="nav-item">
+         <a href="#" title="Logo" class="logo scroll">
+           <!--Logo Default-->
+           <img src="./img/logo.png" alt="logo" class="nav-logo">
+         </a>
+         <a class="nav-link scroll line active" aria-current="page" href="#">Home</a>
+         <a class="nav-link scroll line" aria-current="page" href="#About">About Agency</a>
+         <a class="nav-link scroll line" href="#Corporate">Corporate Projects</a>
+         <a class="nav-link scroll line" href="#Review">Reviews</a>
+         <a class="nav-link scroll line" href="#">Blog</a>
+         <a class="nav-link scroll line" href="#Infor">Get Started now</a>
+       </li>
+       <div class="container-fluid" role="group">
+        <i class="bi bi-facebook text-white m-1"></i>
+        <i class="bi bi-twitter  text-white m-1"></i>
+        <i class="bi bi-linkedin text-white m-1"></i>
+      </div>
+     </ul>
+   </div>
+    <!-- Fin desplegable -->
+  </header>
+  <!-- fin barra de navegación -->
+
+
+  
+  <!-- Seccion 1 -->
+  <!-- creamos el div de la izquierda de la primera pantalla, solamente añadimos la imagen.-->
+  <section>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 estilos1 color">
+      <div class="fondo col-md-4 col-lg-4">
+        <img src="./img/banner-img.png" alt="banner-img" class="imagen">
+        <!-- creamos el div del texto de la derecha de la primera pantalla-->
+        <div class="row col-md-4">
+          <h2>Corporate</h2>
+          <h1 class="banner-heading about-text mb-2">Business Agency</h1>
+          <h4>Donec quis nunc mollis, tincidunt mi vel, pellentesque arcu. Nam nec tristique ex, vitae posuere enim.
+            Nunc vulputate metus id ex pretium fermentum.</h4>
+        </div>
+        <p></p>
+        <a type="button" class="btn btn-outline-dark btn-light boton radio btn0" href="#About">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Segunda parte -->
+  <section>
+    <div class="container" id="About">
+      <div class="row">
+        <!-- <div class="col-md-12 col-lg-12">
+          <h3 id="presentacion"> About Gradient Agency </h3>
+          <h2>Welcome to intro paragragh for some more info about the megaone comapny.</h2>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <p>Welcome to intro paragragh for some more info about the megaone comapny. </p>
+        </div> -->
+        <div class="col-md-6 col-lg-6">
+          <h3 class="about-text mb-4">About Gradient Agency</h3>
+          <h1 class="about-heading">
+            Welcome to intro paragragh
+            for some more info about the megaone comapny.
+          </h1>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <p class="margen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales lobortis vehicula.
+            Aliquam sodales turpis a neque sagittis, condimentum imperdiet risus luctus. Praesent cursus non risus in
+            tempor. Phasellus eu purus sed arcu posuere consequat euismod ac augue. Morbi venenatis dictum consequat.
+            Phasellus eu purus sed arcu posuere consequat euismod ac augue. Morbi venenatis dictum consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row">
+        <div class="botones row ">
+
+          <button type="button" class="btn btn-light boton1 botn letra shadow col-md-3 mx-4"><i
+              class="bi bi-briefcase"></i><br> Our Consults</button>
+
+          <button type="button" class="btn btn-light boton1 botn letra shadow col-md-3 mx-4"><i
+              class="bi bi-lightbulb"><br></i>Great Ideas</button>
+
+          <button type="button" class="btn btn-light boton1 botn letra shadow col-md-3 mx-4"><i
+              class="bi bi-wallet2"></i><br>Great Ideas</button>
+
+          <button type="button" class="btn btn-light boton1 botn letra shadow col-md-3 mx-4"><i
+              class="bi bi-cash"></i><br>Earn Profit</button>
+        </div>
+        <!--Añadimos imagen-->
+        <img src="./img/about-img.png" alt="banner-img" class="posicion1">
+      </div>
+    </div>
+  </section>
+  <!--End section 2 -->
+
+
+
+  <!--Section 3 call to action-->
+  <section class="seccion3">
+    <div class="container text-center ">
+      <div class="row color">
+        <div class="col-12 col-md-3">
+          <p><i class="bi bi-bar-chart"></i></p>
+          <p>3785+</p>
+          <p>Projects</p>
+        </div>
+        <!--end project-->
+        <div class="col-12 col-md-3">
+          <p><i class="bi bi-suit-heart"></i></p>
+          <p>2995+</p>
+          Customers
+        </div>
+        <!--End costumers-->
+        <div class="col-12 col-md-3">
+          <p><i class="bi bi-shield-check"></i></p>
+          <p>1559+</p>
+          <p>Consultations</p>
+        </div>
+        <!--End consultations-->
+        <div class="col-12 col-md-3">
+          <p><i class="bi bi-easel"></i></p>
+          <p>1990+</p>
+          <p>Since</p>
+        </div>
+        <!--End since-->
+      </div>
+    </div>
+  </section>
+  <!--End section 3-->
+
+
+
+
+  <!--section 4-->
+  <section>
+    <div class="container justify-content-center posicion1 container3" id="Corporate">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Primera parte de la seccion "cabecera" -->
+          <div class="heading-area mx-570 mb-lg-4 mb-3 text-center">
+            <h4 style="color:#0a69de;">Let us show you our work</h4>
+            <h3 class="title" style="color: #000;">We have completed some <br> great projects</h3>
+            <p class="parrafo text-justify">There are many variations of passages of Lorem Ipsum available, but the
+              majority have
+              suffered alteration in some form, by injected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- barra de navegación -->
+    <div class="container centered-element">
+      <div class="col-md-12 ">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" type="link"><span type="button" href="#">All</span></li>
+            <li class="breadcrumb-item"><a href="img/portfolio-1.jpg" class="a1">Graphic Design</a></li>
+            <li class="breadcrumb-item "><a href="#Fotos" class="a1">Web Design</a></li>
+            <li class="breadcrumb-item "><a href="#Fotos" class="a1">SEO</a></li>
+            <li class="breadcrumb-item "><a href="#Fotos" class="a1">Marketing</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Añadimos las fotos -->
+    <div class="container" id="Fotos">
+      <div class="row">
+        <div class="col-lg-3 px-0 py-0 mx-0 my-0 foto">
+          <img src="./img/portfolio-1.jpg" alt="">
+        </div>
+        <div class="col-lg-3 px-0 py-0 mx-0 my-0 foto">
+          <div class="row">
+            <div class="col-lg-12 px-0 py-0 mx-0 my-0 foto">
+              <img src="img/portfolio-2.jpg" alt="">
+            </div>
+            <div class="col-lg-12 px-0 py-0 mx-0 my-0 foto">
+              <img src="img/portfolio-3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-0 py-0 mx-0 my-0 foto">
+          <img src="img/portfolio-4.jpg" alt="">
+        </div>
+        <div class="col-lg-6 px-0 py-0 mx-0 my-0 foto">
+          <img src="img/portfolio-5.jpg" alt="">
+        </div>
+        <div class="col-lg-6 px-0 py-0 mx-0 my-0 foto">
+          <div class="row">
+            <div class="col-lg-12 px-0 py-0 mx-3 my-0 foto">
+              <img src="img/portfolio-6.jpg" alt="">
+            </div>
+            <div class="row">
+              <div class="col-lg-6 px-0 py-0 mx-3 my-0 foto">
+                <img src="img/portfolio-7.jpg" alt="">
+              </div>
+              <div class="col-lg-6 px-0 py-0 mx-0 my-0 foto" style="width: 10%">
+                <img src="img/portfolio-8.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End section 4 -->
+
+
+  <!-- section 5 Blog-->
+  <section class="fondo">
+    <div class="container container2" id="Review">
+      <div class="row">
+        <div class="col-lg-6 slideInLeft">
+          <div class="blog-area" data-wow-delay=".9s">
+            <h2 class="bog-heading color">
+              Happy <br> Customers
+            </h2>
+            <p class="blog-text color parrafo2">
+              Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s
+              standard dummy.
+            </p>
+          </div>
+        </div>
+        <!-- carrosel -->
+        <div class="col-lg-6 slideInRight text-center">
+          <div id="carouselExampleSlidesOnly" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="blog-text wow adeInLeft color parrafo2" data-wow-delay="1s">Lorem ipsum dolor sit amet,
+                  consectetur
+                  adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
+                  commodo.</p>
+                <img src="img/review-1.jpg" class="bd-placeholder-img bd-placeholder-img-lg w-20" width="120"
+                  height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Sara</title>
+                </img>
+                <h4 class="color">Sara Williams</h4>
+
+              </div>
+              <div class="carousel-item">
+                <p class="blog-text text-justify color" data-wow-delay="1s">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
+                  commodo.</p>
+                <img img src="./img/review-2.png" class="bd-placeholder-img radio w-20" width="120" height="120"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                  preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                <h4 class="color">Mandy Rose</h4>
+              </div>
+              <div class="carousel-item">
+                <p class="blog-text wow fadeInLeft color" data-wow-delay="1s">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
+                  commodo.</p>
+                <img img src="img/review-3.jpg" class="bd-placeholder-img radio w-20" width="120" height="120"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+                  preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                <h4 class="color">Steve Smith </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End section 5 Blog-->
+  <section>
+    <div class="container justify-content-center posicion1 container3" id="Infor">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Primera parte de la seccion "cabecera" -->
+          <div class="heading-area mx-570 mb-lg-4 mb-3 text-center">
+            <h4 style="color:#0a69de;">Book Your Appointment</h4>
+            <h3 class="title" style="color: #000;">Let’s Get Started</h3>
+            <p class="parrafo text-justify">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem
+              Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container container4">
+      <div class="col-12 col-lg-7 ">
+        <form class="row contact-form wow fadeInLeft no-gutters " id="contact-form-data">
+          <div class="col-sm-12" id="result"></div>
+          <div class="col-12">
+            <input type="text" name="userName" placeholder="Name" class="form-control border-0">
+            <hr>
+          </div>
+          <div class="col-12">
+            <input type="email" name="userEmail" placeholder="Contact No" class="form-control border-0">
+            <hr>
+          </div>
+          <div class="col-12">
+            <input type="text" name="userSubject" placeholder="Email" class="form-control border-0">
+            <hr>
+          </div>
+          <div class="col-12">
+            <textarea class="form-control border-0" name="userMessage" rows="6"
+              placeholder="Type Your Message Here "></textarea>
+            <hr>
+          </div>
+          <p></p>
+          <p></p>
+          <a type="button" class="btn btn-primary radio">Send Information</a>
+        </form>
+      </div>
+      <div class="col-12 col-lg-5 justify-content-center float1 text-lg-left position-relative">
+        <div class="contact-details wow fadeInRight text-justify" style="color: #000;">
+          <p><i aria-hidden="true" class="bi bi-geo-alt"></i> 123 Park Avenue, New York</p><br>
+          <p><i aria-hidden="true" class="bi bi-telephone-inbound"></i>
+            </i> <span style="color: #000;"> +1 631 1234 5678</span>
+          </p><br>
+          <p> <i class="bi bi-send"></i> email@website.com</p><br>
+          <p><i aria-hidden="true" class="bi bi-geo-alt"></i> Monday to Friday 10am to 6pm <br />Saturday 10am
+            to 4am </p><br>
+
+        </div>
+      </div>
+    </div>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Fin contacto   -->
+  <!-- Mapas -->
+  <section class=" padding-top">
+    <div class="row">
+      <div class="col-12">
+        <div class="mapouter">
+          <div id="map" class="mapa w-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.119836621463!2d-111.82867978434551!3d40.67132844803905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752618984de63e9%3A0x4855e115e2866521!2sHolladay%20City%20Hall%20Park!5e0!3m2!1ses!2ses!4v1669621675162!5m2!1ses!2ses"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container text-center iconos padding-top">
+      <i class="bi bi-facebook facebook m-3"></i>
+      <i class="bi bi-google google m-3"></i>
+      <i class="bi bi-twitter twitter m-3"></i>
+      <i class="bi bi-linkedin linkedin m-3"></i>
+      <i class="bi bi-instagram insta m-3"></i>
+      <i class="bi bi-pinterest pinterest m-3"></i>
+      <br>
+      <p></p>
+    </div>
+    <p class="text-center text-muted">© 2021 MegaOne. Made With Love By <a class="a2" type="button">Themesindustry</a>
+    </p>
+  </footer>
+</body>
+
+</html>
